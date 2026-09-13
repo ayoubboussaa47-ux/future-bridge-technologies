@@ -10,6 +10,8 @@ import { Contact } from "./pages/Contact";
 
 import "./styles/globals.css";
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 const router = createBrowserRouter([
   {
     element: (
@@ -29,7 +31,7 @@ const router = createBrowserRouter([
       { path: "*", element: <Home /> },
     ],
   },
-]);
+], { basename });
 
 function App() {
   return <RouterProvider router={router} />;
