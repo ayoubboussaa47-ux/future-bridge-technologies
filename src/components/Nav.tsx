@@ -1,6 +1,7 @@
 import { useState, type KeyboardEvent } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { NAV } from "../data/site";
+import logo from "../assets/logo_officiel.png";
 
 export const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +23,7 @@ export const Nav = () => {
     <nav onKeyDown={handleNavKeyDown}>
       <div className="nav-inner">
         <Link to="/" className="brand" onClick={close} aria-label="Future Bridge Technologies — home">
-          <img src="/logo_officiel.png" alt="Future Bridge Technologies" className="logo-mark" />
+          <img src={logo} alt="Future Bridge Technologies" className="logo-mark" />
           <span className="logo">Future<em>Bridge</em></span>
         </Link>
         <div className={`nav-links ${open ? "open" : ""}`} id="navLinks">

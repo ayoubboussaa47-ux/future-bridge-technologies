@@ -9,5 +9,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "./",
+  base: process.env.GH_DEPLOY === "1" ? "/future-bridge-technologies/" : "/",
 });

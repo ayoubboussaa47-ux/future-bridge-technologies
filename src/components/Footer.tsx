@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { SERVICES } from "../data/services";
 import { SITE } from "../data/site";
+import logo from "../assets/logo_officiel.png";
 
 const COMPANY_LINKS = [
   { label: "Technology", href: "/technology" },
@@ -17,7 +18,7 @@ export const Footer = () => (
       <div className="footer-top">
         <div className="footer-brand">
           <Link to="/" className="brand">
-            <img src="/logo_officiel.png" alt="Future Bridge Technologies" className="logo-mark" />
+            <img src={logo} alt="Future Bridge Technologies" className="logo-mark" />
             <span className="brand-lockup">
               <span className="brand-name">FutureBridge</span>
               <span className="brand-sub">Technologies</span>
