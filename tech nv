@@ -1,0 +1,86 @@
+# FUTURE BRIDGE TECHNOLOGIES — MASTER EXECUTION ROADMAP (tech nv)
+**Document de Référence & Cahier des Charges pour le Développement du Site Web**
+**Statุต:** Version 1.0 — Prêt pour transmission au Développeur / IA de développement
+
+---
+
+## 1. CONTEXTE & IDENTITÉ DE LA MARQUE
+* **Nom de l'entreprise :** Future Bridge Technologies
+* **Tagline officielle (À respecter strictement) :** Build • Automate • Scale
+* **Produit Phare :** Albatross AI (Operating System d'agents IA autonomes)
+* **Client Pilote / Première Venture :** Albatrix Funded (Proprietary Trading Ecosystem)
+* **Direction Visuelle :** Style sombre, premium, futuriste, deep navy / black background (#050a14), accents bleu électrique et cyan (#2388ff, #43d6ff), typographie moderne et épurée (Manrope / DM Mono).
+
+---
+
+## 2. STRUCTURE COMPLÈTE DU SITE WEB
+Le site doit être une landing page immersive longue (ou application multipage fluide) comprenant les sections suivantes :
+
+### A. Navigation & En-tête (Header)
+* **Logo :** Marque "FUTURE BRIDGE TECHNOLOGIES" avec le symbole géométrique du pont/albatros.
+* **Menu de navigation :** Accueil, Services, Témoignages / Cas (Albatrix), Partenaires, Tarifs & Baquetes, Contact.
+* **CTA Principal :** Bouton "Démarrer un partenariat / Devis" menant vers le formulaire.
+
+### B. Section Hero (Accueil)
+* **Badge / Statut :** "AI-native operating systems for the next generation of business"
+* **Titre principal :** "Build the bridge to what’s next."
+* **Sous-titre :** "Future Bridge Technologies connecte les entreprises ambitieuses au futur grâce à des agents IA autonomes qui planifient, exécutent et passent à l'échelle."
+* **CTA :** "Demander un partenariat" + "Découvrir Albatross AI".
+
+### C. Services & Offres (Ce que nous faisons)
+* **Description :** Présentation détaillée de l'écosystème de services de Future Bridge Technologies.
+* **Piliers :**
+  1. *Déploiement d'Agents IA Autonomes (Albatross AI OS)*
+  2. *Intégrations API & Infrastructures (DXtrade / cTrader / Dashboards)*
+  3. *Automatisation des Risques et Conformité (Sentinel-Risk & Legal)*
+  4. *Acquisition et Croissance (Nexus-Growth)*
+
+### D. Nos Partenaires & Écosystème
+* **Présentation :** Les partenaires technologiques et stratégiques (ex: DXtrade / Devexperts, plateformes cloud, écosystèmes financiers MENA).
+* **Mise en avant :** Albatrix Funded en tant que premier client pilote et vitrine technologique.
+
+### E. Vitrine de l'Écosystème & Agents (AI Agent Guild)
+* Affichage des 8 rôles d'agents autonomes :
+  1. **Albatross-CTO** (Architecture & APIs)
+  2. **Sentinel-Risk** (Gestion des risques & Drawdown)
+  3. **Nexus-Growth** (Acquisition & Affiliation)
+  4. **Nexus-Ops** (KYC & Opérations)
+  5. **Juris-Legal** (Conformité)
+  6. **Alpha-Sales** (Prospection & CRM)
+  7. **Atlas-Research** (Veille & Marché)
+  8. **Ledger-Finance** (Économie & Reporting)
+
+### F. Galerie / Aperçu des Réalisations (Portfolio / Cas d'usage)
+* Captures d'écran et aperçus visuels du système Albatross AI et de la plateforme Albatrix Funded (Dashboards de trading, gestion des challenges, analytics).
+
+### G. Tarifs & Formules (Baqüetes d'abonnement / Partenariat)
+* **Formule 1 : Pilot Startup (Albatrix Model)** — Pour les entreprises souhaitant lancer leur propre infrastructure prop trading ou fintech avec Albatross AI.
+* **Formule 2 : Enterprise OS Licensing** — Licence SaaS complète pour automatiser les départements via l'AI Agent Guild.
+* **Formule 3 : Strategic Partnership / Co-Founder** — Accès sur-mesure pour les investisseurs et co-fondateurs.
+
+### H. Comment Souscrire / Devenir Partenaire (Processus en 3 étapes)
+1. **Étape 1 :** Soumission du formulaire (Sélection du profil : Investisseur, Client, Co-fondateur).
+2. **Étape 2 :** Analyse par l'agent Alpha-Sales et notification instantanée au fondateur.
+3. **Étape 3 :** Appel de cadrage stratégique et déploiement de l'infrastructure pilote.
+
+### I. Réseaux Sociaux & Liens Officiels
+* **LinkedIn :** Future Bridge Technologies
+* **X (Twitter) :** @FutureBridgeTech
+* **Instagram / YouTube / Discord** (Liens intégrés dans le footer).
+
+### J. Formulaire de Contact & Devis
+* Champs : Nom complet, Email professionnel, Type de profil (Investisseur, Client potentiel, Co-fondateur), Message.
+* Action : Enregistrement en base de données + Notification e-mail automatique au propriétaire.
+
+---
+
+## 3. INTEGRATION DE L'AGENT IA (Albatross AI Widget)
+* Un widget de chat flottant en bas à droite de l'écran.
+* Alimenté par l'API LLM pour répondre aux questions des visiteurs sur les services, l'entreprise et les partenariats en temps réel.
+
+---
+
+## 4. INSTRUCTIONS TECHNIQUES POUR LE PROCHAIN DÉVELOPPEUR (IA)
+1. **Stack Technique recommandée :** React 19, TypeScript, Tailwind CSS, tRPC, Node.js / Express, base de données MySQL / Drizzle ORM.
+2. **Assets & Logo :** Utiliser la direction visuelle sombre (#050a14) avec les accents cyan (#43d6ff). Les icônes proviennent de Lucide React.
+3. **Sécurité & Tests :** S'assurer que les routes de contact envoient bien les notifications et que les tests Vitest passent sans erreur.
